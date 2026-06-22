@@ -4,7 +4,7 @@
 # so they appear in the slash command menu
 
 name: design
-version: 1.0.0
+version: 1.1.0
 description: "20 design skills for AI agents: polish, audit, animate, bolder, critique, and more. Based on pbakaus/impeccable."
 
 author:
@@ -24,138 +24,138 @@ commands:
     args:
       - "[target]"
     options:
-      - --json
+      - --summary
 
   - name: audit
     description: Comprehensive quality audit across accessibility, performance, theming, and responsive design
     args:
       - "[area]"
     options:
-      - --json
+      - --summary
 
   - name: animate
     description: Add purposeful animations, micro-interactions, and motion effects
     args:
       - "[target]"
     options:
-      - --json
+      - --summary
 
   - name: adapt
     description: Adapt interface for a specific target (mobile, tablet, desktop, print, email)
     args:
       - "[target]"
     options:
-      - --json
+      - --summary
 
   - name: arrange
     description: Improve layout, alignment, and spatial relationships
     args:
       - "[target]"
     options:
-      - --json
+      - --summary
 
   - name: bolder
     description: Amplify safe or boring designs to be more visually striking
     args:
       - "[target]"
     options:
-      - --json
+      - --summary
 
   - name: clarify
     description: Fix unclear copy, labels, and messaging
     args:
       - "[target]"
     options:
-      - --json
+      - --summary
 
   - name: colorize
     description: Improve color usage, palette, and color relationships
     args:
       - "[target]"
     options:
-      - --json
+      - --summary
 
   - name: critique
     description: Honest design review with actionable feedback
     args:
       - "[area]"
     options:
-      - --json
+      - --summary
 
   - name: delight
     description: Add moments of joy and delightful interactions
     args:
       - "[target]"
     options:
-      - --json
+      - --summary
 
   - name: distill
     description: Simplify and remove excess — less is more
     args:
       - "[target]"
     options:
-      - --json
+      - --summary
 
   - name: extract
     description: Extract reusable components from existing code
     args:
       - "[target]"
     options:
-      - --json
+      - --summary
 
   - name: frontend-design
     description: Build distinctive, production-grade frontend interfaces from scratch
     args:
       - "[description]"
     options:
-      - --json
+      - --summary
 
   - name: harden
     description: Improve resilience, error handling, and edge cases
     args:
       - "[target]"
     options:
-      - --json
+      - --summary
 
   - name: normalize
     description: Align with design system conventions and tokens
     args:
       - "[target]"
     options:
-      - --json
+      - --summary
 
   - name: onboard
     description: Add onboarding UX — tooltips, walkthroughs, empty states
     args:
       - "[target]"
     options:
-      - --json
+      - --summary
 
   - name: optimize
     description: Performance optimization — speed, bundle size, rendering
     args:
       - "[target]"
     options:
-      - --json
+      - --summary
 
   - name: overdrive
     description: Push design to the extreme — maximum visual impact
     args:
       - "[target]"
     options:
-      - --json
+      - --summary
 
   - name: typeset
     description: Improve typography — hierarchy, spacing, font choices
     args:
       - "[target]"
     options:
-      - --json
+      - --summary
 
   - name: teach
     description: One-time setup — gathers design context and saves to .impeccable.md
     options:
-      - --json
+      - --summary
 
 tokens: {}
 

@@ -337,14 +337,14 @@ function invokeSkill(command, targetArgs, options) {
     process.exit(1);
   }
 
-  if (options.json) {
+  if (!options.summary) {
     var result = {
       skill: command,
       target: targetArgs || null,
       instructions: skill.content,
       references: skill.refs.map(function(r) { return { path: r.path, content: r.content }; })
     };
-    console.log(JSON.stringify(result, null, 2));
+    console.log(JSON.stringify(result));
     return;
   }
 
@@ -382,8 +382,8 @@ var options = {};
 var positional = [];
 
 for (var i = 1; i < args.length; i++) {
-  if (args[i] === '--json') {
-    options.json = true;
+  if (args[i] === '--summary') {
+    options.summary = true;
   } else if (args[i].charAt(0) !== '-') {
     positional.push(args[i]);
   }
